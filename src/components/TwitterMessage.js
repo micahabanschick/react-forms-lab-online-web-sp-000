@@ -16,7 +16,7 @@ class TwitterMessage extends React.Component {
     this.setState({
       tweet: event.target.value,
       remainChars: charLeft
-    }) 
+    })
   }
 
   render() {
